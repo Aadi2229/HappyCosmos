@@ -1,0 +1,44 @@
+body{
+    background-color: orange;
+}
+.wrapper{
+    width: 80vmin;
+    padding: 50px 40px;
+    background-color: black;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 5px;
+    box-shadow: 20px 20px 40px rgba(97,63,0,0.6);
+}
+span{
+    text-align: center;
+    display: block;
+    font-size: 100px;
+}
+#content{
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    word-wrap: break-word;
+    line-height: 35px;
+    margin: 30px 0;
+}
+#btn{
+    display: block;
+    margin: 0 auto;
+    font-size: 25px;
+    cursor: pointer;
+    border-radius: 7px;
+    background-color: rgb(115, 232, 136);
+
+}
+.web-name{
+    color: var(--pl-white);
+    opacity: 0.75;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    line-height: 1.2;
+}

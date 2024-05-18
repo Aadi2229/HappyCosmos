@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #ecc395;
+}
+.pass{
+    background-color: white;
+    width: 90vmin;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    padding: 80px 50px;
+    border-radius: 10px;
+    display: inline-block;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+}
+#submit{
+    cursor: pointer;
+    color: rgb(202, 85, 85);
+    width: 125px;
+}
+.chk{
+    display: block;
+    padding-left: 30%;
+}
+header {
+    font-weight: 600;
+    font-size: 40px;
+    letter-spacing: 5px;
+    text-align: center;
+  }
